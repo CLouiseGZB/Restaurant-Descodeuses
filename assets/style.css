@@ -1,0 +1,230 @@
+/* @import url('https://fonts.googleapis.com/css?family=Proxima+Nova'); */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+}
+
+nav{
+    color: #004C44;
+    text-align: center;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav2{
+    color: white;
+    text-align: center;
+    background-color: #004C44;
+    height: 4em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#entete{
+    background-color: #004C44;
+    color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+p {
+    /* border: solid red 1px; */
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1%;
+}
+
+.liste-recettes{
+    /* border: solid 1px #004C44; */
+    display: flex;
+    justify-content:space-around;
+    padding: 3% 1%;
+}
+
+.recette{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+a{
+    color: #004C44;
+    text-decoration: none;
+    font-size: 1.3em;
+    /* transition: ; */
+}
+
+a:hover{
+    text-decoration: underline;
+    transition: text-decoration 0.3s ease;
+    color: #1d887d;
+}
+
+aside{
+    position: fixed;
+    top: 30%;
+    height: 300px;
+    width: 60px;
+    /* border: solid red 1px; */
+    font-size: 2em  ;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    box-shadow:0 8px 6px rgb(0 0 0 / 30%) ;
+    color: white;
+    background-color: #1d887d;
+
+}
+
+img{
+    transition: transform 0.5s;
+    filter: opacity(1);
+}
+
+img:hover{
+    transform: scale(1.1);
+    filter: opacity(0.7);
+}
+
+
+/* ~~~~~~~~~~~~~~~~recette_v2~~~~~~~~ */
+section{
+    color: #004c44;
+    margin-top: 30px;
+}
+
+
+#img_table{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+#toast{
+    height: 30.2em;
+    /* border: solid 1px red; */
+}
+
+
+table.GeneratedTable {
+    width: 60em;
+    background-color: #ffffff;
+    border-collapse: collapse;
+    border: solid #004c44;
+    color: #ffffff;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+    border: solid #004c44;
+    padding: 20px;
+    /* width: 80%; */
+}
+
+table.GeneratedTable thead {
+    background-color: #004c44;
+}
+
+td{
+    color: #004C44;
+}
+
+.preparation, .astuce{
+    margin: 10px;
+    /* border: solid 1px red; */
+
+}
+
+ol{
+    list-style:disc;
+    margin: 0px 20px;
+}
+
+/* h2{
+    padding-top: px;
+} */
+
+.astuce p {
+    padding: 10px 0px;
+/* border: solid 1px red; */
+}
+
+.message form{
+    border: solid 1px #004C44;
+    padding: 20px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width:fit-content;
+    box-shadow:0 8px 6px rgb(0 0 0 / 30%) ;
+    
+}
+
+ul{
+    list-style:none; 
+}
+
+button{
+    color: #ffffff;
+    background-color: #004C44;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #1d887d;
+}
+
+#next{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+form li{
+    margin: 20px;
+    
+}
+
+textarea{
+    width: 29.7em;
+    height: 100px;
+    color: #004C44;
+    resize: none;
+    padding: 7px;
+    
+}
+
+input{
+    width: 30em;
+    height: 30px;
+    margin: 0 15px;
+    padding: 3px;
+    color: #004C44;
+}
+
+#name{
+    margin: 0 7px;
+}
+
+
+footer{
+    background-color: #004C44;
+    color: white;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
