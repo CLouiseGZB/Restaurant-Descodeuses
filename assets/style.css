@@ -86,12 +86,12 @@ aside{
 
 }
 
-img{
+#photo{
     transition: transform 0.5s;
     filter: opacity(1);
 }
 
-img:hover{
+#photo:hover{
     transform: scale(1.1);
     filter: opacity(0.7);
 }
@@ -200,7 +200,7 @@ form li{
 textarea{
     width: 29.7em;
     height: 100px;
-    color: #004C44;
+    color: #1d887d;
     resize: none;
     padding: 7px;
     
@@ -211,12 +211,12 @@ input{
     height: 30px;
     margin: 0 15px;
     padding: 3px;
-    color: #004C44;
+    color: #1d887d;
 }
 
-/* .form__group input:focus{
-    border: 2px solid #6300a0;
-} */
+input:focus, textarea:focus {
+    border: 3PX solid #1d887d;
+}
 
 #name{
     margin: 0 7px;
