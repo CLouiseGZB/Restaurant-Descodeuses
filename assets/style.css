@@ -214,6 +214,10 @@ input{
     color: #004C44;
 }
 
+/* .form__group input:focus{
+    border: 2px solid #6300a0;
+} */
+
 #name{
     margin: 0 7px;
 }
@@ -226,5 +230,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
